@@ -1,0 +1,870 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot rpa="false" generated="20200505 10:45:49.788" generator="Robot 3.1.2 (Python 2.7.17 on win32)">
+<suite source="D:\QA\PWABola" id="s1" name="PWABola">
+<suite source="D:\QA\PWABola\TestCases" id="s1-s1" name="TestCases">
+<suite source="D:\QA\PWABola\TestCases\FavoritePageTest.robot" id="s1-s1-s1" name="FavoritePageTest">
+<kw type="setup" name="Open Browser" library="SeleniumLibrary">
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<arguments>
+<arg>${Web URL}</arg>
+<arg>${Browser}</arg>
+</arguments>
+<msg timestamp="20200505 10:45:50.902" level="INFO">Opening browser 'chrome' to base url 'https://flamboyant-jennings-3a3dde.netlify.com'.</msg>
+<status status="PASS" endtime="20200505 10:45:57.383" starttime="20200505 10:45:50.901"></status>
+</kw>
+<test id="s1-s1-s1-t1" name="CekFavoritewithCsv to Paris Saint-Germain FC">
+<kw name="Cek Favorite">
+<arguments>
+<arg>Paris Saint-Germain FC</arg>
+</arguments>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>2 seconds</arg>
+</arguments>
+<msg timestamp="20200505 10:45:59.390" level="INFO">Slept 2 seconds</msg>
+<status status="PASS" endtime="20200505 10:45:59.391" starttime="20200505 10:45:57.389"></status>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<doc>Click the element identified by ``locator``.</doc>
+<arguments>
+<arg>link=${Item}</arg>
+</arguments>
+<msg timestamp="20200505 10:45:59.394" level="INFO">Clicking element 'link=Paris Saint-Germain FC'.</msg>
+<status status="PASS" endtime="20200505 10:46:01.110" starttime="20200505 10:45:59.392"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>3 seconds</arg>
+</arguments>
+<msg timestamp="20200505 10:46:04.116" level="INFO">Slept 3 seconds</msg>
+<status status="PASS" endtime="20200505 10:46:04.117" starttime="20200505 10:46:01.112"></status>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<doc>Click the element identified by ``locator``.</doc>
+<arguments>
+<arg>link=favorite_border</arg>
+</arguments>
+<msg timestamp="20200505 10:46:04.119" level="INFO">Clicking element 'link=favorite_border'.</msg>
+<status status="PASS" endtime="20200505 10:46:04.222" starttime="20200505 10:46:04.118"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>2 seconds</arg>
+</arguments>
+<msg timestamp="20200505 10:46:06.224" level="INFO">Slept 2 seconds</msg>
+<status status="PASS" endtime="20200505 10:46:06.224" starttime="20200505 10:46:04.223"></status>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<doc>Click the element identified by ``locator``.</doc>
+<arguments>
+<arg>link=home</arg>
+</arguments>
+<msg timestamp="20200505 10:46:06.226" level="INFO">Clicking element 'link=home'.</msg>
+<status status="PASS" endtime="20200505 10:46:06.560" starttime="20200505 10:46:06.225"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>2 seconds</arg>
+</arguments>
+<msg timestamp="20200505 10:46:08.563" level="INFO">Slept 2 seconds</msg>
+<status status="PASS" endtime="20200505 10:46:08.563" starttime="20200505 10:46:06.561"></status>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<doc>Click the element identified by ``locator``.</doc>
+<arguments>
+<arg>link=Favorite</arg>
+</arguments>
+<msg timestamp="20200505 10:46:08.566" level="INFO">Clicking element 'link=Favorite'.</msg>
+<status status="PASS" endtime="20200505 10:46:08.757" starttime="20200505 10:46:08.564"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>2 seconds</arg>
+</arguments>
+<msg timestamp="20200505 10:46:10.760" level="INFO">Slept 2 seconds</msg>
+<status status="PASS" endtime="20200505 10:46:10.760" starttime="20200505 10:46:08.758"></status>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<doc>Click the element identified by ``locator``.</doc>
+<arguments>
+<arg>link=${Item}</arg>
+</arguments>
+<msg timestamp="20200505 10:46:10.765" level="INFO">Clicking element 'link=Paris Saint-Germain FC'.</msg>
+<status status="PASS" endtime="20200505 10:46:11.140" starttime="20200505 10:46:10.762"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>2 seconds</arg>
+</arguments>
+<msg timestamp="20200505 10:46:13.142" level="INFO">Slept 2 seconds</msg>
+<status status="PASS" endtime="20200505 10:46:13.142" starttime="20200505 10:46:11.141"></status>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<doc>Click the element identified by ``locator``.</doc>
+<arguments>
+<arg>link=home</arg>
+</arguments>
+<msg timestamp="20200505 10:46:13.144" level="INFO">Clicking element 'link=home'.</msg>
+<status status="PASS" endtime="20200505 10:46:13.482" starttime="20200505 10:46:13.143"></status>
+</kw>
+<status status="PASS" endtime="20200505 10:46:13.484" starttime="20200505 10:45:57.386"></status>
+</kw>
+<status status="PASS" endtime="20200505 10:46:13.486" critical="yes" starttime="20200505 10:45:57.384"></status>
+</test>
+<test id="s1-s1-s1-t2" name="CekFavoritewithCsv to Olympique de Marseille">
+<kw name="Cek Favorite">
+<arguments>
+<arg>Olympique de Marseille</arg>
+</arguments>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>2 seconds</arg>
+</arguments>
+<msg timestamp="20200505 10:46:15.497" level="INFO">Slept 2 seconds</msg>
+<status status="PASS" endtime="20200505 10:46:15.497" starttime="20200505 10:46:13.494"></status>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<doc>Click the element identified by ``locator``.</doc>
+<arguments>
+<arg>link=${Item}</arg>
+</arguments>
+<msg timestamp="20200505 10:46:15.500" level="INFO">Clicking element 'link=Olympique de Marseille'.</msg>
+<status status="PASS" endtime="20200505 10:46:15.911" starttime="20200505 10:46:15.498"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>3 seconds</arg>
+</arguments>
+<msg timestamp="20200505 10:46:18.914" level="INFO">Slept 3 seconds</msg>
+<status status="PASS" endtime="20200505 10:46:18.914" starttime="20200505 10:46:15.912"></status>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<doc>Click the element identified by ``locator``.</doc>
+<arguments>
+<arg>link=favorite_border</arg>
+</arguments>
+<msg timestamp="20200505 10:46:18.916" level="INFO">Clicking element 'link=favorite_border'.</msg>
+<status status="PASS" endtime="20200505 10:46:19.018" starttime="20200505 10:46:18.915"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>2 seconds</arg>
+</arguments>
+<msg timestamp="20200505 10:46:21.020" level="INFO">Slept 2 seconds</msg>
+<status status="PASS" endtime="20200505 10:46:21.021" starttime="20200505 10:46:19.019"></status>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<doc>Click the element identified by ``locator``.</doc>
+<arguments>
+<arg>link=home</arg>
+</arguments>
+<msg timestamp="20200505 10:46:21.028" level="INFO">Clicking element 'link=home'.</msg>
+<status status="PASS" endtime="20200505 10:46:21.392" starttime="20200505 10:46:21.024"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>2 seconds</arg>
+</arguments>
+<msg timestamp="20200505 10:46:23.399" level="INFO">Slept 2 seconds</msg>
+<status status="PASS" endtime="20200505 10:46:23.399" starttime="20200505 10:46:21.395"></status>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<doc>Click the element identified by ``locator``.</doc>
+<arguments>
+<arg>link=Favorite</arg>
+</arguments>
+<msg timestamp="20200505 10:46:23.400" level="INFO">Clicking element 'link=Favorite'.</msg>
+<status status="PASS" endtime="20200505 10:46:23.549" starttime="20200505 10:46:23.399"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>2 seconds</arg>
+</arguments>
+<msg timestamp="20200505 10:46:25.550" level="INFO">Slept 2 seconds</msg>
+<status status="PASS" endtime="20200505 10:46:25.551" starttime="20200505 10:46:23.549"></status>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<doc>Click the element identified by ``locator``.</doc>
+<arguments>
+<arg>link=${Item}</arg>
+</arguments>
+<msg timestamp="20200505 10:46:25.554" level="INFO">Clicking element 'link=Olympique de Marseille'.</msg>
+<status status="PASS" endtime="20200505 10:46:25.894" starttime="20200505 10:46:25.552"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>2 seconds</arg>
+</arguments>
+<msg timestamp="20200505 10:46:27.897" level="INFO">Slept 2 seconds</msg>
+<status status="PASS" endtime="20200505 10:46:27.898" starttime="20200505 10:46:25.895"></status>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<doc>Click the element identified by ``locator``.</doc>
+<arguments>
+<arg>link=home</arg>
+</arguments>
+<msg timestamp="20200505 10:46:27.899" level="INFO">Clicking element 'link=home'.</msg>
+<status status="PASS" endtime="20200505 10:46:28.210" starttime="20200505 10:46:27.898"></status>
+</kw>
+<status status="PASS" endtime="20200505 10:46:28.212" starttime="20200505 10:46:13.490"></status>
+</kw>
+<status status="PASS" endtime="20200505 10:46:28.212" critical="yes" starttime="20200505 10:46:13.487"></status>
+</test>
+<test id="s1-s1-s1-t3" name="CekFavoritewithCsv to Lille OSC">
+<kw name="Cek Favorite">
+<arguments>
+<arg>Lille OSC</arg>
+</arguments>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>2 seconds</arg>
+</arguments>
+<msg timestamp="20200505 10:46:30.221" level="INFO">Slept 2 seconds</msg>
+<status status="PASS" endtime="20200505 10:46:30.221" starttime="20200505 10:46:28.219"></status>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<doc>Click the element identified by ``locator``.</doc>
+<arguments>
+<arg>link=${Item}</arg>
+</arguments>
+<msg timestamp="20200505 10:46:30.223" level="INFO">Clicking element 'link=Lille OSC'.</msg>
+<status status="PASS" endtime="20200505 10:46:30.629" starttime="20200505 10:46:30.222"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>3 seconds</arg>
+</arguments>
+<msg timestamp="20200505 10:46:33.633" level="INFO">Slept 3 seconds</msg>
+<status status="PASS" endtime="20200505 10:46:33.633" starttime="20200505 10:46:30.632"></status>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<doc>Click the element identified by ``locator``.</doc>
+<arguments>
+<arg>link=favorite_border</arg>
+</arguments>
+<msg timestamp="20200505 10:46:33.635" level="INFO">Clicking element 'link=favorite_border'.</msg>
+<status status="PASS" endtime="20200505 10:46:33.737" starttime="20200505 10:46:33.634"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>2 seconds</arg>
+</arguments>
+<msg timestamp="20200505 10:46:35.739" level="INFO">Slept 2 seconds</msg>
+<status status="PASS" endtime="20200505 10:46:35.739" starttime="20200505 10:46:33.738"></status>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<doc>Click the element identified by ``locator``.</doc>
+<arguments>
+<arg>link=home</arg>
+</arguments>
+<msg timestamp="20200505 10:46:35.742" level="INFO">Clicking element 'link=home'.</msg>
+<status status="PASS" endtime="20200505 10:46:36.039" starttime="20200505 10:46:35.740"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>2 seconds</arg>
+</arguments>
+<msg timestamp="20200505 10:46:38.041" level="INFO">Slept 2 seconds</msg>
+<status status="PASS" endtime="20200505 10:46:38.041" starttime="20200505 10:46:36.040"></status>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<doc>Click the element identified by ``locator``.</doc>
+<arguments>
+<arg>link=Favorite</arg>
+</arguments>
+<msg timestamp="20200505 10:46:38.043" level="INFO">Clicking element 'link=Favorite'.</msg>
+<status status="PASS" endtime="20200505 10:46:38.262" starttime="20200505 10:46:38.042"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>2 seconds</arg>
+</arguments>
+<msg timestamp="20200505 10:46:40.266" level="INFO">Slept 2 seconds</msg>
+<status status="PASS" endtime="20200505 10:46:40.267" starttime="20200505 10:46:38.264"></status>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<doc>Click the element identified by ``locator``.</doc>
+<arguments>
+<arg>link=${Item}</arg>
+</arguments>
+<msg timestamp="20200505 10:46:40.271" level="INFO">Clicking element 'link=Lille OSC'.</msg>
+<status status="PASS" endtime="20200505 10:46:40.588" starttime="20200505 10:46:40.268"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>2 seconds</arg>
+</arguments>
+<msg timestamp="20200505 10:46:42.592" level="INFO">Slept 2 seconds</msg>
+<status status="PASS" endtime="20200505 10:46:42.593" starttime="20200505 10:46:40.589"></status>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<doc>Click the element identified by ``locator``.</doc>
+<arguments>
+<arg>link=home</arg>
+</arguments>
+<msg timestamp="20200505 10:46:42.598" level="INFO">Clicking element 'link=home'.</msg>
+<status status="PASS" endtime="20200505 10:46:42.867" starttime="20200505 10:46:42.596"></status>
+</kw>
+<status status="PASS" endtime="20200505 10:46:42.868" starttime="20200505 10:46:28.218"></status>
+</kw>
+<status status="PASS" endtime="20200505 10:46:42.870" critical="yes" starttime="20200505 10:46:28.216"></status>
+</test>
+<test id="s1-s1-s1-t4" name="CekFavoritewithCsv to OGC Nice">
+<kw name="Cek Favorite">
+<arguments>
+<arg>OGC Nice</arg>
+</arguments>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>2 seconds</arg>
+</arguments>
+<msg timestamp="20200505 10:46:44.879" level="INFO">Slept 2 seconds</msg>
+<status status="PASS" endtime="20200505 10:46:44.879" starttime="20200505 10:46:42.877"></status>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<doc>Click the element identified by ``locator``.</doc>
+<arguments>
+<arg>link=${Item}</arg>
+</arguments>
+<msg timestamp="20200505 10:46:44.881" level="INFO">Clicking element 'link=OGC Nice'.</msg>
+<status status="PASS" endtime="20200505 10:46:45.216" starttime="20200505 10:46:44.880"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>3 seconds</arg>
+</arguments>
+<msg timestamp="20200505 10:46:48.219" level="INFO">Slept 3 seconds</msg>
+<status status="PASS" endtime="20200505 10:46:48.219" starttime="20200505 10:46:45.218"></status>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<doc>Click the element identified by ``locator``.</doc>
+<arguments>
+<arg>link=favorite_border</arg>
+</arguments>
+<msg timestamp="20200505 10:46:48.221" level="INFO">Clicking element 'link=favorite_border'.</msg>
+<status status="PASS" endtime="20200505 10:46:48.309" starttime="20200505 10:46:48.220"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>2 seconds</arg>
+</arguments>
+<msg timestamp="20200505 10:46:50.310" level="INFO">Slept 2 seconds</msg>
+<status status="PASS" endtime="20200505 10:46:50.311" starttime="20200505 10:46:48.309"></status>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<doc>Click the element identified by ``locator``.</doc>
+<arguments>
+<arg>link=home</arg>
+</arguments>
+<msg timestamp="20200505 10:46:50.315" level="INFO">Clicking element 'link=home'.</msg>
+<status status="PASS" endtime="20200505 10:46:50.589" starttime="20200505 10:46:50.312"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>2 seconds</arg>
+</arguments>
+<msg timestamp="20200505 10:46:52.592" level="INFO">Slept 2 seconds</msg>
+<status status="PASS" endtime="20200505 10:46:52.593" starttime="20200505 10:46:50.591"></status>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<doc>Click the element identified by ``locator``.</doc>
+<arguments>
+<arg>link=Favorite</arg>
+</arguments>
+<msg timestamp="20200505 10:46:52.599" level="INFO">Clicking element 'link=Favorite'.</msg>
+<status status="PASS" endtime="20200505 10:46:52.745" starttime="20200505 10:46:52.595"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>2 seconds</arg>
+</arguments>
+<msg timestamp="20200505 10:46:54.747" level="INFO">Slept 2 seconds</msg>
+<status status="PASS" endtime="20200505 10:46:54.748" starttime="20200505 10:46:52.746"></status>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<doc>Click the element identified by ``locator``.</doc>
+<arguments>
+<arg>link=${Item}</arg>
+</arguments>
+<msg timestamp="20200505 10:46:54.752" level="INFO">Clicking element 'link=OGC Nice'.</msg>
+<status status="PASS" endtime="20200505 10:46:55.137" starttime="20200505 10:46:54.749"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>2 seconds</arg>
+</arguments>
+<msg timestamp="20200505 10:46:57.141" level="INFO">Slept 2 seconds</msg>
+<status status="PASS" endtime="20200505 10:46:57.141" starttime="20200505 10:46:55.138"></status>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<doc>Click the element identified by ``locator``.</doc>
+<arguments>
+<arg>link=home</arg>
+</arguments>
+<msg timestamp="20200505 10:46:57.143" level="INFO">Clicking element 'link=home'.</msg>
+<status status="PASS" endtime="20200505 10:46:57.452" starttime="20200505 10:46:57.142"></status>
+</kw>
+<status status="PASS" endtime="20200505 10:46:57.453" starttime="20200505 10:46:42.875"></status>
+</kw>
+<status status="PASS" endtime="20200505 10:46:57.455" critical="yes" starttime="20200505 10:46:42.873"></status>
+</test>
+<test id="s1-s1-s1-t5" name="CekFavoritewithCsv to Olympique Lyonnais">
+<kw name="Cek Favorite">
+<arguments>
+<arg>Olympique Lyonnais</arg>
+</arguments>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>2 seconds</arg>
+</arguments>
+<msg timestamp="20200505 10:46:59.463" level="INFO">Slept 2 seconds</msg>
+<status status="PASS" endtime="20200505 10:46:59.464" starttime="20200505 10:46:57.462"></status>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<doc>Click the element identified by ``locator``.</doc>
+<arguments>
+<arg>link=${Item}</arg>
+</arguments>
+<msg timestamp="20200505 10:46:59.468" level="INFO">Clicking element 'link=Olympique Lyonnais'.</msg>
+<status status="PASS" endtime="20200505 10:46:59.900" starttime="20200505 10:46:59.465"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>3 seconds</arg>
+</arguments>
+<msg timestamp="20200505 10:47:02.904" level="INFO">Slept 3 seconds</msg>
+<status status="PASS" endtime="20200505 10:47:02.905" starttime="20200505 10:46:59.902"></status>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<doc>Click the element identified by ``locator``.</doc>
+<arguments>
+<arg>link=favorite_border</arg>
+</arguments>
+<msg timestamp="20200505 10:47:02.908" level="INFO">Clicking element 'link=favorite_border'.</msg>
+<status status="PASS" endtime="20200505 10:47:03.010" starttime="20200505 10:47:02.906"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>2 seconds</arg>
+</arguments>
+<msg timestamp="20200505 10:47:05.013" level="INFO">Slept 2 seconds</msg>
+<status status="PASS" endtime="20200505 10:47:05.014" starttime="20200505 10:47:03.011"></status>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<doc>Click the element identified by ``locator``.</doc>
+<arguments>
+<arg>link=home</arg>
+</arguments>
+<msg timestamp="20200505 10:47:05.018" level="INFO">Clicking element 'link=home'.</msg>
+<status status="PASS" endtime="20200505 10:47:05.364" starttime="20200505 10:47:05.016"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>2 seconds</arg>
+</arguments>
+<msg timestamp="20200505 10:47:07.368" level="INFO">Slept 2 seconds</msg>
+<status status="PASS" endtime="20200505 10:47:07.369" starttime="20200505 10:47:05.366"></status>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<doc>Click the element identified by ``locator``.</doc>
+<arguments>
+<arg>link=Favorite</arg>
+</arguments>
+<msg timestamp="20200505 10:47:07.373" level="INFO">Clicking element 'link=Favorite'.</msg>
+<status status="PASS" endtime="20200505 10:47:07.575" starttime="20200505 10:47:07.371"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>2 seconds</arg>
+</arguments>
+<msg timestamp="20200505 10:47:09.577" level="INFO">Slept 2 seconds</msg>
+<status status="PASS" endtime="20200505 10:47:09.578" starttime="20200505 10:47:07.576"></status>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<doc>Click the element identified by ``locator``.</doc>
+<arguments>
+<arg>link=${Item}</arg>
+</arguments>
+<msg timestamp="20200505 10:47:09.583" level="INFO">Clicking element 'link=Olympique Lyonnais'.</msg>
+<status status="PASS" endtime="20200505 10:47:09.933" starttime="20200505 10:47:09.580"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>2 seconds</arg>
+</arguments>
+<msg timestamp="20200505 10:47:11.937" level="INFO">Slept 2 seconds</msg>
+<status status="PASS" endtime="20200505 10:47:11.937" starttime="20200505 10:47:09.934"></status>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<doc>Click the element identified by ``locator``.</doc>
+<arguments>
+<arg>link=home</arg>
+</arguments>
+<msg timestamp="20200505 10:47:11.941" level="INFO">Clicking element 'link=home'.</msg>
+<status status="PASS" endtime="20200505 10:47:12.243" starttime="20200505 10:47:11.939"></status>
+</kw>
+<status status="PASS" endtime="20200505 10:47:12.244" starttime="20200505 10:46:57.458"></status>
+</kw>
+<status status="PASS" endtime="20200505 10:47:12.245" critical="yes" starttime="20200505 10:46:57.457"></status>
+</test>
+<test id="s1-s1-s1-t6" name="CekFavoritewithCsv to Stade Rennais FC 1901">
+<kw name="Cek Favorite">
+<arguments>
+<arg>Stade Rennais FC 1901</arg>
+</arguments>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>2 seconds</arg>
+</arguments>
+<msg timestamp="20200505 10:47:14.257" level="INFO">Slept 2 seconds</msg>
+<status status="PASS" endtime="20200505 10:47:14.257" starttime="20200505 10:47:12.255"></status>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<doc>Click the element identified by ``locator``.</doc>
+<arguments>
+<arg>link=${Item}</arg>
+</arguments>
+<msg timestamp="20200505 10:47:14.260" level="INFO">Clicking element 'link=Stade Rennais FC 1901'.</msg>
+<status status="PASS" endtime="20200505 10:47:14.946" starttime="20200505 10:47:14.258"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>3 seconds</arg>
+</arguments>
+<msg timestamp="20200505 10:47:17.949" level="INFO">Slept 3 seconds</msg>
+<status status="PASS" endtime="20200505 10:47:17.950" starttime="20200505 10:47:14.947"></status>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<doc>Click the element identified by ``locator``.</doc>
+<arguments>
+<arg>link=favorite_border</arg>
+</arguments>
+<msg timestamp="20200505 10:47:17.954" level="INFO">Clicking element 'link=favorite_border'.</msg>
+<status status="PASS" endtime="20200505 10:47:18.068" starttime="20200505 10:47:17.951"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>2 seconds</arg>
+</arguments>
+<msg timestamp="20200505 10:47:20.070" level="INFO">Slept 2 seconds</msg>
+<status status="PASS" endtime="20200505 10:47:20.071" starttime="20200505 10:47:18.069"></status>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<doc>Click the element identified by ``locator``.</doc>
+<arguments>
+<arg>link=home</arg>
+</arguments>
+<msg timestamp="20200505 10:47:20.074" level="INFO">Clicking element 'link=home'.</msg>
+<status status="PASS" endtime="20200505 10:47:20.369" starttime="20200505 10:47:20.072"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>2 seconds</arg>
+</arguments>
+<msg timestamp="20200505 10:47:22.371" level="INFO">Slept 2 seconds</msg>
+<status status="PASS" endtime="20200505 10:47:22.371" starttime="20200505 10:47:20.370"></status>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<doc>Click the element identified by ``locator``.</doc>
+<arguments>
+<arg>link=Favorite</arg>
+</arguments>
+<msg timestamp="20200505 10:47:22.373" level="INFO">Clicking element 'link=Favorite'.</msg>
+<status status="PASS" endtime="20200505 10:47:22.541" starttime="20200505 10:47:22.372"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>2 seconds</arg>
+</arguments>
+<msg timestamp="20200505 10:47:24.547" level="INFO">Slept 2 seconds</msg>
+<status status="PASS" endtime="20200505 10:47:24.547" starttime="20200505 10:47:22.543"></status>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<doc>Click the element identified by ``locator``.</doc>
+<arguments>
+<arg>link=${Item}</arg>
+</arguments>
+<msg timestamp="20200505 10:47:24.550" level="INFO">Clicking element 'link=Stade Rennais FC 1901'.</msg>
+<status status="PASS" endtime="20200505 10:47:24.887" starttime="20200505 10:47:24.548"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>2 seconds</arg>
+</arguments>
+<msg timestamp="20200505 10:47:26.889" level="INFO">Slept 2 seconds</msg>
+<status status="PASS" endtime="20200505 10:47:26.890" starttime="20200505 10:47:24.888"></status>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<doc>Click the element identified by ``locator``.</doc>
+<arguments>
+<arg>link=home</arg>
+</arguments>
+<msg timestamp="20200505 10:47:26.894" level="INFO">Clicking element 'link=home'.</msg>
+<status status="PASS" endtime="20200505 10:47:27.249" starttime="20200505 10:47:26.891"></status>
+</kw>
+<status status="PASS" endtime="20200505 10:47:27.250" starttime="20200505 10:47:12.253"></status>
+</kw>
+<status status="PASS" endtime="20200505 10:47:27.251" critical="yes" starttime="20200505 10:47:12.250"></status>
+</test>
+<test id="s1-s1-s1-t7" name="CekFavoritewithCsv to Angers SCO">
+<kw name="Cek Favorite">
+<arguments>
+<arg>Angers SCO</arg>
+</arguments>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>2 seconds</arg>
+</arguments>
+<msg timestamp="20200505 10:47:29.260" level="INFO">Slept 2 seconds</msg>
+<status status="PASS" endtime="20200505 10:47:29.261" starttime="20200505 10:47:27.258"></status>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<doc>Click the element identified by ``locator``.</doc>
+<arguments>
+<arg>link=${Item}</arg>
+</arguments>
+<msg timestamp="20200505 10:47:29.266" level="INFO">Clicking element 'link=Angers SCO'.</msg>
+<status status="PASS" endtime="20200505 10:47:29.643" starttime="20200505 10:47:29.262"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>3 seconds</arg>
+</arguments>
+<msg timestamp="20200505 10:47:32.644" level="INFO">Slept 3 seconds</msg>
+<status status="PASS" endtime="20200505 10:47:32.645" starttime="20200505 10:47:29.643"></status>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<doc>Click the element identified by ``locator``.</doc>
+<arguments>
+<arg>link=favorite_border</arg>
+</arguments>
+<msg timestamp="20200505 10:47:32.649" level="INFO">Clicking element 'link=favorite_border'.</msg>
+<status status="PASS" endtime="20200505 10:47:32.760" starttime="20200505 10:47:32.646"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>2 seconds</arg>
+</arguments>
+<msg timestamp="20200505 10:47:34.761" level="INFO">Slept 2 seconds</msg>
+<status status="PASS" endtime="20200505 10:47:34.762" starttime="20200505 10:47:32.761"></status>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<doc>Click the element identified by ``locator``.</doc>
+<arguments>
+<arg>link=home</arg>
+</arguments>
+<msg timestamp="20200505 10:47:34.765" level="INFO">Clicking element 'link=home'.</msg>
+<status status="PASS" endtime="20200505 10:47:35.047" starttime="20200505 10:47:34.763"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>2 seconds</arg>
+</arguments>
+<msg timestamp="20200505 10:47:37.053" level="INFO">Slept 2 seconds</msg>
+<status status="PASS" endtime="20200505 10:47:37.054" starttime="20200505 10:47:35.050"></status>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<doc>Click the element identified by ``locator``.</doc>
+<arguments>
+<arg>link=Favorite</arg>
+</arguments>
+<msg timestamp="20200505 10:47:37.059" level="INFO">Clicking element 'link=Favorite'.</msg>
+<status status="PASS" endtime="20200505 10:47:37.234" starttime="20200505 10:47:37.056"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>2 seconds</arg>
+</arguments>
+<msg timestamp="20200505 10:47:39.235" level="INFO">Slept 2 seconds</msg>
+<status status="PASS" endtime="20200505 10:47:39.235" starttime="20200505 10:47:37.235"></status>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<doc>Click the element identified by ``locator``.</doc>
+<arguments>
+<arg>link=${Item}</arg>
+</arguments>
+<msg timestamp="20200505 10:47:39.239" level="INFO">Clicking element 'link=Angers SCO'.</msg>
+<status status="PASS" endtime="20200505 10:47:39.606" starttime="20200505 10:47:39.236"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>2 seconds</arg>
+</arguments>
+<msg timestamp="20200505 10:47:41.609" level="INFO">Slept 2 seconds</msg>
+<status status="PASS" endtime="20200505 10:47:41.610" starttime="20200505 10:47:39.607"></status>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<doc>Click the element identified by ``locator``.</doc>
+<arguments>
+<arg>link=home</arg>
+</arguments>
+<msg timestamp="20200505 10:47:41.613" level="INFO">Clicking element 'link=home'.</msg>
+<status status="PASS" endtime="20200505 10:47:41.877" starttime="20200505 10:47:41.611"></status>
+</kw>
+<status status="PASS" endtime="20200505 10:47:41.878" starttime="20200505 10:47:27.256"></status>
+</kw>
+<status status="PASS" endtime="20200505 10:47:41.880" critical="yes" starttime="20200505 10:47:27.253"></status>
+</test>
+<test id="s1-s1-s1-t8" name="CekFavoritewithCsv to Stade de Reims">
+<kw name="Cek Favorite">
+<arguments>
+<arg>Stade de Reims</arg>
+</arguments>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>2 seconds</arg>
+</arguments>
+<msg timestamp="20200505 10:47:43.889" level="INFO">Slept 2 seconds</msg>
+<status status="PASS" endtime="20200505 10:47:43.890" starttime="20200505 10:47:41.887"></status>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<doc>Click the element identified by ``locator``.</doc>
+<arguments>
+<arg>link=${Item}</arg>
+</arguments>
+<msg timestamp="20200505 10:47:43.894" level="INFO">Clicking element 'link=Stade de Reims'.</msg>
+<status status="PASS" endtime="20200505 10:47:44.245" starttime="20200505 10:47:43.892"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>3 seconds</arg>
+</arguments>
+<msg timestamp="20200505 10:47:47.247" level="INFO">Slept 3 seconds</msg>
+<status status="PASS" endtime="20200505 10:47:47.247" starttime="20200505 10:47:44.246"></status>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<doc>Click the element identified by ``locator``.</doc>
+<arguments>
+<arg>link=favorite_border</arg>
+</arguments>
+<msg timestamp="20200505 10:47:47.249" level="INFO">Clicking element 'link=favorite_border'.</msg>
+<status status="PASS" endtime="20200505 10:47:47.345" starttime="20200505 10:47:47.248"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>2 seconds</arg>
+</arguments>
+<msg timestamp="20200505 10:47:49.347" level="INFO">Slept 2 seconds</msg>
+<status status="PASS" endtime="20200505 10:47:49.347" starttime="20200505 10:47:47.346"></status>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<doc>Click the element identified by ``locator``.</doc>
+<arguments>
+<arg>link=home</arg>
+</arguments>
+<msg timestamp="20200505 10:47:49.350" level="INFO">Clicking element 'link=home'.</msg>
+<status status="PASS" endtime="20200505 10:47:49.635" starttime="20200505 10:47:49.348"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>2 seconds</arg>
+</arguments>
+<msg timestamp="20200505 10:47:51.638" level="INFO">Slept 2 seconds</msg>
+<status status="PASS" endtime="20200505 10:47:51.638" starttime="20200505 10:47:49.637"></status>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<doc>Click the element identified by ``locator``.</doc>
+<arguments>
+<arg>link=Favorite</arg>
+</arguments>
+<msg timestamp="20200505 10:47:51.640" level="INFO">Clicking element 'link=Favorite'.</msg>
+<status status="PASS" endtime="20200505 10:47:51.808" starttime="20200505 10:47:51.639"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>2 seconds</arg>
+</arguments>
+<msg timestamp="20200505 10:47:53.810" level="INFO">Slept 2 seconds</msg>
+<status status="PASS" endtime="20200505 10:47:53.811" starttime="20200505 10:47:51.809"></status>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<doc>Click the element identified by ``locator``.</doc>
+<arguments>
+<arg>link=${Item}</arg>
+</arguments>
+<msg timestamp="20200505 10:47:53.814" level="INFO">Clicking element 'link=Stade de Reims'.</msg>
+<kw name="Capture Page Screenshot" library="SeleniumLibrary">
+<doc>Takes a screenshot of the current page and embeds it into a log file.</doc>
+<msg timestamp="20200505 10:47:54.406" html="yes" level="INFO">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="selenium-screenshot-16.png"&gt;&lt;img src="selenium-screenshot-16.png" width="800px"&gt;&lt;/a&gt;</msg>
+<status status="PASS" endtime="20200505 10:47:54.407" starttime="20200505 10:47:53.871"></status>
+</kw>
+<msg timestamp="20200505 10:47:54.410" level="FAIL">Element with locator 'link=Stade de Reims' not found.</msg>
+<status status="FAIL" endtime="20200505 10:47:54.410" starttime="20200505 10:47:53.812"></status>
+</kw>
+<status status="FAIL" endtime="20200505 10:47:54.411" starttime="20200505 10:47:41.885"></status>
+</kw>
+<status status="FAIL" endtime="20200505 10:47:54.411" critical="yes" starttime="20200505 10:47:41.883">Element with locator 'link=Stade de Reims' not found.</status>
+</test>
+<kw type="teardown" name="Close All Browsers" library="SeleniumLibrary">
+<doc>Closes all open browsers and resets the browser cache.</doc>
+<status status="PASS" endtime="20200505 10:47:56.785" starttime="20200505 10:47:54.414"></status>
+</kw>
+<status status="FAIL" endtime="20200505 10:47:56.786" starttime="20200505 10:45:49.937"></status>
+</suite>
+<status status="FAIL" endtime="20200505 10:47:56.811" starttime="20200505 10:45:49.933"></status>
+</suite>
+<status status="FAIL" endtime="20200505 10:47:56.823" starttime="20200505 10:45:49.891"></status>
+</suite>
+<statistics>
+<total>
+<stat fail="1" pass="7">Critical Tests</stat>
+<stat fail="1" pass="7">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat fail="1" id="s1" name="PWABola" pass="7">PWABola</stat>
+<stat fail="1" id="s1-s1" name="TestCases" pass="7">PWABola.TestCases</stat>
+<stat fail="1" id="s1-s1-s1" name="FavoritePageTest" pass="7">PWABola.TestCases.FavoritePageTest</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
